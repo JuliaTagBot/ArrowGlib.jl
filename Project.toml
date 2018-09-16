@@ -1,0 +1,6 @@
+authors = ["Randy Zwitch <rzwitch@gmail.com>"]
+name = "ArrowGlib"
+uuid = "388c5598-b94f-11e8-27bd-335d1017b39e"
+version = "0.1.0"
+
+[deps]
