@@ -1,6 +1,6 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
-using Compat
+#using Compat
 
 # Skipping MacroDefinition: GARROW_TYPE_ARRAY_BUILDER ( garrow_array_builder_get_type ( ) )
 # Skipping MacroDefinition: GARROW_TYPE_BOOLEAN_ARRAY_BUILDER ( garrow_boolean_array_builder_get_type ( ) )
