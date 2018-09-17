@@ -2,7 +2,7 @@ using Clang
 cd("/usr/include/arrow-glib")
 
 context = wrap_c.init(; output_file="glibarrow.jl",
-                        common_file="glibarrow_h.jl",
+                        common_file="struct.jl",
                         header_wrapped = (x,y) -> !contains(x, "gurifuncs.h") && (x == y),
                         header_library=x -> "libarrowglib",
                         clang_diagnostics=true,
