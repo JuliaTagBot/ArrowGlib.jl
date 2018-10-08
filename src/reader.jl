@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_record_batch_reader_get_type()
-    ccall((:garrow_record_batch_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_reader_get_type()
+#     ccall((:garrow_record_batch_reader_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowRecordBatchReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowRecordBatchReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowRecordBatchReader}},), _ptr)
@@ -46,9 +46,9 @@ function garrow_record_batch_reader_read_next(reader, error)
     ccall((:garrow_record_batch_reader_read_next, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchReader}, Ptr{Ptr{GError}}), reader, error)
 end
 
-function garrow_table_batch_reader_get_type()
-    ccall((:garrow_table_batch_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_table_batch_reader_get_type()
+#     ccall((:garrow_table_batch_reader_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowTableBatchReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTableBatchReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTableBatchReader}},), _ptr)
@@ -78,17 +78,17 @@ function garrow_table_batch_reader_new(table)
     ccall((:garrow_table_batch_reader_new, libarrowglib), Ptr{GArrowTableBatchReader}, (Ptr{GArrowTable},), table)
 end
 
-function garrow_record_batch_stream_reader_get_type()
-    ccall((:garrow_record_batch_stream_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_stream_reader_get_type()
+#     ccall((:garrow_record_batch_stream_reader_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_stream_reader_new(stream, error)
     ccall((:garrow_record_batch_stream_reader_new, libarrowglib), Ptr{GArrowRecordBatchStreamReader}, (Ptr{GArrowInputStream}, Ptr{Ptr{GError}}), stream, error)
 end
 
-function garrow_record_batch_file_reader_get_type()
-    ccall((:garrow_record_batch_file_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_file_reader_get_type()
+#     ccall((:garrow_record_batch_file_reader_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_file_reader_new(file, error)
     ccall((:garrow_record_batch_file_reader_new, libarrowglib), Ptr{GArrowRecordBatchFileReader}, (Ptr{GArrowSeekableInputStream}, Ptr{Ptr{GError}}), file, error)
@@ -114,9 +114,9 @@ function garrow_record_batch_file_reader_read_record_batch(reader, i::guint, err
     ccall((:garrow_record_batch_file_reader_read_record_batch, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchFileReader}, guint, Ptr{Ptr{GError}}), reader, i, error)
 end
 
-function garrow_feather_file_reader_get_type()
-    ccall((:garrow_feather_file_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_feather_file_reader_get_type()
+#     ccall((:garrow_feather_file_reader_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_feather_file_reader_new(file, error)
     ccall((:garrow_feather_file_reader_new, libarrowglib), Ptr{GArrowFeatherFileReader}, (Ptr{GArrowSeekableInputStream}, Ptr{Ptr{GError}}), file, error)

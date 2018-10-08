@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_decimal128_get_type()
-    ccall((:garrow_decimal128_get_type, libarrowglib), GType, ())
-end
+# function garrow_decimal128_get_type()
+#     ccall((:garrow_decimal128_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDecimal128(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDecimal128, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDecimal128}},), _ptr)

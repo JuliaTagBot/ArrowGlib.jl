@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_array_get_type()
-    ccall((:garrow_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_array_get_type()
+#     ccall((:garrow_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowArray}},), _ptr)
@@ -94,17 +94,17 @@ function garrow_array_dictionary_encode(array, error)
     ccall((:garrow_array_dictionary_encode, libarrowglib), Ptr{GArrowArray}, (Ptr{GArrowArray}, Ptr{Ptr{GError}}), array, error)
 end
 
-function garrow_null_array_get_type()
-    ccall((:garrow_null_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_null_array_get_type()
+#     ccall((:garrow_null_array_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_null_array_new(length::gint64)
     ccall((:garrow_null_array_new, libarrowglib), Ptr{GArrowNullArray}, (gint64,), length)
 end
 
-function garrow_primitive_array_get_type()
-    ccall((:garrow_primitive_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_primitive_array_get_type()
+#     ccall((:garrow_primitive_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowPrimitiveArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowPrimitiveArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowPrimitiveArray}},), _ptr)
@@ -134,9 +134,9 @@ function garrow_primitive_array_get_buffer(array)
     ccall((:garrow_primitive_array_get_buffer, libarrowglib), Ptr{GArrowBuffer}, (Ptr{GArrowPrimitiveArray},), array)
 end
 
-function garrow_boolean_array_get_type()
-    ccall((:garrow_boolean_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_boolean_array_get_type()
+#     ccall((:garrow_boolean_array_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_boolean_array_new(length::gint64, data, null_bitmap, n_nulls::gint64)
     ccall((:garrow_boolean_array_new, libarrowglib), Ptr{GArrowBooleanArray}, (gint64, Ptr{GArrowBuffer}, Ptr{GArrowBuffer}, gint64), length, data, null_bitmap, n_nulls)
@@ -150,9 +150,9 @@ function garrow_boolean_array_get_values(array, length)
     ccall((:garrow_boolean_array_get_values, libarrowglib), Ptr{gboolean}, (Ptr{GArrowBooleanArray}, Ptr{gint64}), array, length)
 end
 
-function garrow_numeric_array_get_type()
-    ccall((:garrow_numeric_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_numeric_array_get_type()
+#     ccall((:garrow_numeric_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowNumericArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowNumericArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowNumericArray}},), _ptr)
@@ -178,9 +178,9 @@ function GARROW_NUMERIC_ARRAY_GET_CLASS(ptr::gpointer)
     ccall((:GARROW_NUMERIC_ARRAY_GET_CLASS, libarrowglib), Ptr{GArrowNumericArrayClass}, (gpointer,), ptr)
 end
 
-function garrow_int8_array_get_type()
-    ccall((:garrow_int8_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_int8_array_get_type()
+#     ccall((:garrow_int8_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowInt8Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInt8Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInt8Array}},), _ptr)
@@ -218,9 +218,9 @@ function garrow_int8_array_get_values(array, length)
     ccall((:garrow_int8_array_get_values, libarrowglib), Ptr{gint8}, (Ptr{GArrowInt8Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_uint8_array_get_type()
-    ccall((:garrow_uint8_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint8_array_get_type()
+#     ccall((:garrow_uint8_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowUInt8Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUInt8Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUInt8Array}},), _ptr)
@@ -258,9 +258,9 @@ function garrow_uint8_array_get_values(array, length)
     ccall((:garrow_uint8_array_get_values, libarrowglib), Ptr{guint8}, (Ptr{GArrowUInt8Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_int16_array_get_type()
-    ccall((:garrow_int16_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_int16_array_get_type()
+#     ccall((:garrow_int16_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowInt16Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInt16Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInt16Array}},), _ptr)
@@ -298,9 +298,9 @@ function garrow_int16_array_get_values(array, length)
     ccall((:garrow_int16_array_get_values, libarrowglib), Ptr{gint16}, (Ptr{GArrowInt16Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_uint16_array_get_type()
-    ccall((:garrow_uint16_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint16_array_get_type()
+#     ccall((:garrow_uint16_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowUInt16Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUInt16Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUInt16Array}},), _ptr)
@@ -338,9 +338,9 @@ function garrow_uint16_array_get_values(array, length)
     ccall((:garrow_uint16_array_get_values, libarrowglib), Ptr{guint16}, (Ptr{GArrowUInt16Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_int32_array_get_type()
-    ccall((:garrow_int32_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_int32_array_get_type()
+#     ccall((:garrow_int32_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowInt32Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInt32Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInt32Array}},), _ptr)
@@ -378,9 +378,9 @@ function garrow_int32_array_get_values(array, length)
     ccall((:garrow_int32_array_get_values, libarrowglib), Ptr{gint32}, (Ptr{GArrowInt32Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_uint32_array_get_type()
-    ccall((:garrow_uint32_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint32_array_get_type()
+#     ccall((:garrow_uint32_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowUInt32Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUInt32Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUInt32Array}},), _ptr)
@@ -418,9 +418,9 @@ function garrow_uint32_array_get_values(array, length)
     ccall((:garrow_uint32_array_get_values, libarrowglib), Ptr{guint32}, (Ptr{GArrowUInt32Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_int64_array_get_type()
-    ccall((:garrow_int64_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_int64_array_get_type()
+#     ccall((:garrow_int64_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowInt64Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInt64Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInt64Array}},), _ptr)
@@ -458,9 +458,9 @@ function garrow_int64_array_get_values(array, length)
     ccall((:garrow_int64_array_get_values, libarrowglib), Ptr{gint64}, (Ptr{GArrowInt64Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_uint64_array_get_type()
-    ccall((:garrow_uint64_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint64_array_get_type()
+#     ccall((:garrow_uint64_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowUInt64Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUInt64Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUInt64Array}},), _ptr)
@@ -498,9 +498,9 @@ function garrow_uint64_array_get_values(array, length)
     ccall((:garrow_uint64_array_get_values, libarrowglib), Ptr{guint64}, (Ptr{GArrowUInt64Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_float_array_get_type()
-    ccall((:garrow_float_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_float_array_get_type()
+#     ccall((:garrow_float_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowFloatArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowFloatArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowFloatArray}},), _ptr)
@@ -538,9 +538,9 @@ function garrow_float_array_get_values(array, length)
     ccall((:garrow_float_array_get_values, libarrowglib), Ptr{gfloat}, (Ptr{GArrowFloatArray}, Ptr{gint64}), array, length)
 end
 
-function garrow_double_array_get_type()
-    ccall((:garrow_double_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_double_array_get_type()
+#     ccall((:garrow_double_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDoubleArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDoubleArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDoubleArray}},), _ptr)
@@ -578,9 +578,9 @@ function garrow_double_array_get_values(array, length)
     ccall((:garrow_double_array_get_values, libarrowglib), Ptr{gdouble}, (Ptr{GArrowDoubleArray}, Ptr{gint64}), array, length)
 end
 
-function garrow_binary_array_get_type()
-    ccall((:garrow_binary_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_binary_array_get_type()
+#     ccall((:garrow_binary_array_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_binary_array_new(length::gint64, value_offsets, data, null_bitmap, n_nulls::gint64)
     ccall((:garrow_binary_array_new, libarrowglib), Ptr{GArrowBinaryArray}, (gint64, Ptr{GArrowBuffer}, Ptr{GArrowBuffer}, Ptr{GArrowBuffer}, gint64), length, value_offsets, data, null_bitmap, n_nulls)
@@ -598,9 +598,9 @@ function garrow_binary_array_get_offsets_buffer(array)
     ccall((:garrow_binary_array_get_offsets_buffer, libarrowglib), Ptr{GArrowBuffer}, (Ptr{GArrowBinaryArray},), array)
 end
 
-function garrow_string_array_get_type()
-    ccall((:garrow_string_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_string_array_get_type()
+#     ccall((:garrow_string_array_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_string_array_new(length::gint64, value_offsets, data, null_bitmap, n_nulls::gint64)
     ccall((:garrow_string_array_new, libarrowglib), Ptr{GArrowStringArray}, (gint64, Ptr{GArrowBuffer}, Ptr{GArrowBuffer}, Ptr{GArrowBuffer}, gint64), length, value_offsets, data, null_bitmap, n_nulls)
@@ -610,9 +610,9 @@ function garrow_string_array_get_string(array, i::gint64)
     ccall((:garrow_string_array_get_string, libarrowglib), Ptr{gchar}, (Ptr{GArrowStringArray}, gint64), array, i)
 end
 
-function garrow_date32_array_get_type()
-    ccall((:garrow_date32_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_date32_array_get_type()
+#     ccall((:garrow_date32_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDate32Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDate32Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDate32Array}},), _ptr)
@@ -650,9 +650,9 @@ function garrow_date32_array_get_values(array, length)
     ccall((:garrow_date32_array_get_values, libarrowglib), Ptr{gint32}, (Ptr{GArrowDate32Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_date64_array_get_type()
-    ccall((:garrow_date64_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_date64_array_get_type()
+#     ccall((:garrow_date64_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDate64Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDate64Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDate64Array}},), _ptr)
@@ -690,9 +690,9 @@ function garrow_date64_array_get_values(array, length)
     ccall((:garrow_date64_array_get_values, libarrowglib), Ptr{gint64}, (Ptr{GArrowDate64Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_timestamp_array_get_type()
-    ccall((:garrow_timestamp_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_timestamp_array_get_type()
+#     ccall((:garrow_timestamp_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowTimestampArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTimestampArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTimestampArray}},), _ptr)
@@ -730,9 +730,9 @@ function garrow_timestamp_array_get_values(array, length)
     ccall((:garrow_timestamp_array_get_values, libarrowglib), Ptr{gint64}, (Ptr{GArrowTimestampArray}, Ptr{gint64}), array, length)
 end
 
-function garrow_time32_array_get_type()
-    ccall((:garrow_time32_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_time32_array_get_type()
+#     ccall((:garrow_time32_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowTime32Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTime32Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTime32Array}},), _ptr)
@@ -770,9 +770,9 @@ function garrow_time32_array_get_values(array, length)
     ccall((:garrow_time32_array_get_values, libarrowglib), Ptr{gint32}, (Ptr{GArrowTime32Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_time64_array_get_type()
-    ccall((:garrow_time64_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_time64_array_get_type()
+#     ccall((:garrow_time64_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowTime64Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTime64Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTime64Array}},), _ptr)
@@ -810,9 +810,9 @@ function garrow_time64_array_get_values(array, length)
     ccall((:garrow_time64_array_get_values, libarrowglib), Ptr{gint64}, (Ptr{GArrowTime64Array}, Ptr{gint64}), array, length)
 end
 
-function garrow_fixed_size_binary_array_get_type()
-    ccall((:garrow_fixed_size_binary_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_fixed_size_binary_array_get_type()
+#     ccall((:garrow_fixed_size_binary_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowFixedSizeBinaryArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowFixedSizeBinaryArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowFixedSizeBinaryArray}},), _ptr)
@@ -838,9 +838,9 @@ function GARROW_FIXED_SIZE_BINARY_ARRAY_GET_CLASS(ptr::gpointer)
     ccall((:GARROW_FIXED_SIZE_BINARY_ARRAY_GET_CLASS, libarrowglib), Ptr{GArrowFixedSizeBinaryArrayClass}, (gpointer,), ptr)
 end
 
-function garrow_decimal128_array_get_type()
-    ccall((:garrow_decimal128_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_decimal128_array_get_type()
+#     ccall((:garrow_decimal128_array_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDecimal128Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDecimal128Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDecimal128Array}},), _ptr)

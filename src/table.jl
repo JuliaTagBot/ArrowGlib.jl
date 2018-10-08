@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_table_get_type()
-    ccall((:garrow_table_get_type, libarrowglib), GType, ())
-end
+# function garrow_table_get_type()
+#     ccall((:garrow_table_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowTable(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTable, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTable}},), _ptr)

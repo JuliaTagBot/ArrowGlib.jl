@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_tensor_get_type()
-    ccall((:garrow_tensor_get_type, libarrowglib), GType, ())
-end
+# function garrow_tensor_get_type()
+#     ccall((:garrow_tensor_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_tensor_new(data_type, data, shape, n_dimensions::gsize, strides, n_strides::gsize, dimention_names, n_dimention_names::gsize)
     ccall((:garrow_tensor_new, libarrowglib), Ptr{GArrowTensor}, (Ptr{GArrowDataType}, Ptr{GArrowBuffer}, Ptr{gint64}, gsize, Ptr{gint64}, gsize, Ptr{Ptr{gchar}}, gsize), data_type, data, shape, n_dimensions, strides, n_strides, dimention_names, n_dimention_names)

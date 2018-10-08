@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_chunked_array_get_type()
-    ccall((:garrow_chunked_array_get_type, libarrowglib), GType, ())
-end
+# function garrow_chunked_array_get_type()
+#     ccall((:garrow_chunked_array_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_chunked_array_new(chunks)
     ccall((:garrow_chunked_array_new, libarrowglib), Ptr{GArrowChunkedArray}, (Ptr{GList},), chunks)

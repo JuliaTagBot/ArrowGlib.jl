@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_list_data_type_get_type()
-    ccall((:garrow_list_data_type_get_type, libarrowglib), GType, ())
-end
+# function garrow_list_data_type_get_type()
+#     ccall((:garrow_list_data_type_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_list_data_type_new(field)
     ccall((:garrow_list_data_type_new, libarrowglib), Ptr{GArrowListDataType}, (Ptr{GArrowField},), field)
@@ -14,17 +14,17 @@ function garrow_list_data_type_get_value_field(list_data_type)
     ccall((:garrow_list_data_type_get_value_field, libarrowglib), Ptr{GArrowField}, (Ptr{GArrowListDataType},), list_data_type)
 end
 
-function garrow_struct_data_type_get_type()
-    ccall((:garrow_struct_data_type_get_type, libarrowglib), GType, ())
-end
+# function garrow_struct_data_type_get_type()
+#     ccall((:garrow_struct_data_type_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_struct_data_type_new(fields)
     ccall((:garrow_struct_data_type_new, libarrowglib), Ptr{GArrowStructDataType}, (Ptr{GList},), fields)
 end
 
-function garrow_dictionary_data_type_get_type()
-    ccall((:garrow_dictionary_data_type_get_type, libarrowglib), GType, ())
-end
+# function garrow_dictionary_data_type_get_type()
+#     ccall((:garrow_dictionary_data_type_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDictionaryDataType(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDictionaryDataType, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDictionaryDataType}},), _ptr)

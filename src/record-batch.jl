@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_record_batch_get_type()
-    ccall((:garrow_record_batch_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_get_type()
+#     ccall((:garrow_record_batch_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_new(schema, n_rows::guint32, columns, error)
     ccall((:garrow_record_batch_new, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowSchema}, guint32, Ptr{GList}, Ptr{Ptr{GError}}), schema, n_rows, columns, error)

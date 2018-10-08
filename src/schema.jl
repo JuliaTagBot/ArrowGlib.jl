@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_schema_get_type()
-    ccall((:garrow_schema_get_type, libarrowglib), GType, ())
-end
+# function garrow_schema_get_type()
+#     ccall((:garrow_schema_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowSchema(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowSchema, libarrowglib), Cvoid, (Ptr{Ptr{GArrowSchema}},), _ptr)

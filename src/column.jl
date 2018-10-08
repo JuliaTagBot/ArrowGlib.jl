@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_column_get_type()
-    ccall((:garrow_column_get_type, libarrowglib), GType, ())
-end
+# function garrow_column_get_type()
+#     ccall((:garrow_column_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_column_new_array(field, array)
     ccall((:garrow_column_new_array, libarrowglib), Ptr{GArrowColumn}, (Ptr{GArrowField}, Ptr{GArrowArray}), field, array)
