@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_array_builder_get_type()
-    ccall((:garrow_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_array_builder_get_type()
+#     ccall((:garrow_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowArrayBuilder}},), _ptr)
@@ -46,9 +46,9 @@ function garrow_array_builder_finish(builder, error)
     ccall((:garrow_array_builder_finish, libarrowglib), Ptr{GArrowArray}, (Ptr{GArrowArrayBuilder}, Ptr{Ptr{GError}}), builder, error)
 end
 
-function garrow_boolean_array_builder_get_type()
-    ccall((:garrow_boolean_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_boolean_array_builder_get_type()
+#     ccall((:garrow_boolean_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_boolean_array_builder_new()
     ccall((:garrow_boolean_array_builder_new, libarrowglib), Ptr{GArrowBooleanArrayBuilder}, ())
@@ -70,9 +70,9 @@ function garrow_boolean_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_boolean_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowBooleanArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_int_array_builder_get_type()
-    ccall((:garrow_int_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_int_array_builder_get_type()
+#     ccall((:garrow_int_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_int_array_builder_new()
     ccall((:garrow_int_array_builder_new, libarrowglib), Ptr{GArrowIntArrayBuilder}, ())
@@ -94,9 +94,9 @@ function garrow_int_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_int_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowIntArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_uint_array_builder_get_type()
-    ccall((:garrow_uint_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint_array_builder_get_type()
+#     ccall((:garrow_uint_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowUIntArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUIntArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUIntArrayBuilder}},), _ptr)
@@ -142,9 +142,9 @@ function garrow_uint_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_uint_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowUIntArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_int8_array_builder_get_type()
-    ccall((:garrow_int8_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_int8_array_builder_get_type()
+#     ccall((:garrow_int8_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_int8_array_builder_new()
     ccall((:garrow_int8_array_builder_new, libarrowglib), Ptr{GArrowInt8ArrayBuilder}, ())
@@ -166,9 +166,9 @@ function garrow_int8_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_int8_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowInt8ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_uint8_array_builder_get_type()
-    ccall((:garrow_uint8_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint8_array_builder_get_type()
+#     ccall((:garrow_uint8_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_uint8_array_builder_new()
     ccall((:garrow_uint8_array_builder_new, libarrowglib), Ptr{GArrowUInt8ArrayBuilder}, ())
@@ -190,9 +190,9 @@ function garrow_uint8_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_uint8_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowUInt8ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_int16_array_builder_get_type()
-    ccall((:garrow_int16_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_int16_array_builder_get_type()
+#     ccall((:garrow_int16_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_int16_array_builder_new()
     ccall((:garrow_int16_array_builder_new, libarrowglib), Ptr{GArrowInt16ArrayBuilder}, ())
@@ -214,9 +214,9 @@ function garrow_int16_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_int16_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowInt16ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_uint16_array_builder_get_type()
-    ccall((:garrow_uint16_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint16_array_builder_get_type()
+#     ccall((:garrow_uint16_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_uint16_array_builder_new()
     ccall((:garrow_uint16_array_builder_new, libarrowglib), Ptr{GArrowUInt16ArrayBuilder}, ())
@@ -238,9 +238,9 @@ function garrow_uint16_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_uint16_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowUInt16ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_int32_array_builder_get_type()
-    ccall((:garrow_int32_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_int32_array_builder_get_type()
+#     ccall((:garrow_int32_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_int32_array_builder_new()
     ccall((:garrow_int32_array_builder_new, libarrowglib), Ptr{GArrowInt32ArrayBuilder}, ())
@@ -262,9 +262,9 @@ function garrow_int32_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_int32_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowInt32ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_uint32_array_builder_get_type()
-    ccall((:garrow_uint32_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint32_array_builder_get_type()
+#     ccall((:garrow_uint32_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_uint32_array_builder_new()
     ccall((:garrow_uint32_array_builder_new, libarrowglib), Ptr{GArrowUInt32ArrayBuilder}, ())
@@ -286,9 +286,9 @@ function garrow_uint32_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_uint32_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowUInt32ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_int64_array_builder_get_type()
-    ccall((:garrow_int64_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_int64_array_builder_get_type()
+#     ccall((:garrow_int64_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_int64_array_builder_new()
     ccall((:garrow_int64_array_builder_new, libarrowglib), Ptr{GArrowInt64ArrayBuilder}, ())
@@ -310,9 +310,9 @@ function garrow_int64_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_int64_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowInt64ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_uint64_array_builder_get_type()
-    ccall((:garrow_uint64_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_uint64_array_builder_get_type()
+#     ccall((:garrow_uint64_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_uint64_array_builder_new()
     ccall((:garrow_uint64_array_builder_new, libarrowglib), Ptr{GArrowUInt64ArrayBuilder}, ())
@@ -334,9 +334,9 @@ function garrow_uint64_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_uint64_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowUInt64ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_float_array_builder_get_type()
-    ccall((:garrow_float_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_float_array_builder_get_type()
+#     ccall((:garrow_float_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_float_array_builder_new()
     ccall((:garrow_float_array_builder_new, libarrowglib), Ptr{GArrowFloatArrayBuilder}, ())
@@ -358,9 +358,9 @@ function garrow_float_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_float_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowFloatArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_double_array_builder_get_type()
-    ccall((:garrow_double_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_double_array_builder_get_type()
+#     ccall((:garrow_double_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_double_array_builder_new()
     ccall((:garrow_double_array_builder_new, libarrowglib), Ptr{GArrowDoubleArrayBuilder}, ())
@@ -382,9 +382,9 @@ function garrow_double_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_double_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowDoubleArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_binary_array_builder_get_type()
-    ccall((:garrow_binary_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_binary_array_builder_get_type()
+#     ccall((:garrow_binary_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_binary_array_builder_new()
     ccall((:garrow_binary_array_builder_new, libarrowglib), Ptr{GArrowBinaryArrayBuilder}, ())
@@ -398,9 +398,9 @@ function garrow_binary_array_builder_append_null(builder, error)
     ccall((:garrow_binary_array_builder_append_null, libarrowglib), gboolean, (Ptr{GArrowBinaryArrayBuilder}, Ptr{Ptr{GError}}), builder, error)
 end
 
-function garrow_string_array_builder_get_type()
-    ccall((:garrow_string_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_string_array_builder_get_type()
+#     ccall((:garrow_string_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_string_array_builder_new()
     ccall((:garrow_string_array_builder_new, libarrowglib), Ptr{GArrowStringArrayBuilder}, ())
@@ -414,9 +414,9 @@ function garrow_string_array_builder_append_values(builder, values, values_lengt
     ccall((:garrow_string_array_builder_append_values, libarrowglib), gboolean, (Ptr{GArrowStringArrayBuilder}, Ptr{Ptr{gchar}}, gint64, Ptr{gboolean}, gint64, Ptr{Ptr{GError}}), builder, values, values_length, is_valids, is_valids_length, error)
 end
 
-function garrow_date32_array_builder_get_type()
-    ccall((:garrow_date32_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_date32_array_builder_get_type()
+#     ccall((:garrow_date32_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_date32_array_builder_new()
     ccall((:garrow_date32_array_builder_new, libarrowglib), Ptr{GArrowDate32ArrayBuilder}, ())
@@ -438,9 +438,9 @@ function garrow_date32_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_date32_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowDate32ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_date64_array_builder_get_type()
-    ccall((:garrow_date64_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_date64_array_builder_get_type()
+#     ccall((:garrow_date64_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_date64_array_builder_new()
     ccall((:garrow_date64_array_builder_new, libarrowglib), Ptr{GArrowDate64ArrayBuilder}, ())
@@ -462,9 +462,9 @@ function garrow_date64_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_date64_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowDate64ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_timestamp_array_builder_get_type()
-    ccall((:garrow_timestamp_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_timestamp_array_builder_get_type()
+#     ccall((:garrow_timestamp_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_timestamp_array_builder_new(data_type)
     ccall((:garrow_timestamp_array_builder_new, libarrowglib), Ptr{GArrowTimestampArrayBuilder}, (Ptr{GArrowTimestampDataType},), data_type)
@@ -486,9 +486,9 @@ function garrow_timestamp_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_timestamp_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowTimestampArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_time32_array_builder_get_type()
-    ccall((:garrow_time32_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_time32_array_builder_get_type()
+#     ccall((:garrow_time32_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_time32_array_builder_new(data_type)
     ccall((:garrow_time32_array_builder_new, libarrowglib), Ptr{GArrowTime32ArrayBuilder}, (Ptr{GArrowTime32DataType},), data_type)
@@ -510,9 +510,9 @@ function garrow_time32_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_time32_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowTime32ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_time64_array_builder_get_type()
-    ccall((:garrow_time64_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_time64_array_builder_get_type()
+#     ccall((:garrow_time64_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_time64_array_builder_new(data_type)
     ccall((:garrow_time64_array_builder_new, libarrowglib), Ptr{GArrowTime64ArrayBuilder}, (Ptr{GArrowTime64DataType},), data_type)
@@ -534,9 +534,9 @@ function garrow_time64_array_builder_append_nulls(builder, n::gint64, error)
     ccall((:garrow_time64_array_builder_append_nulls, libarrowglib), gboolean, (Ptr{GArrowTime64ArrayBuilder}, gint64, Ptr{Ptr{GError}}), builder, n, error)
 end
 
-function garrow_list_array_builder_get_type()
-    ccall((:garrow_list_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_list_array_builder_get_type()
+#     ccall((:garrow_list_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_list_array_builder_new(data_type, error)
     ccall((:garrow_list_array_builder_new, libarrowglib), Ptr{GArrowListArrayBuilder}, (Ptr{GArrowListDataType}, Ptr{Ptr{GError}}), data_type, error)
@@ -554,9 +554,9 @@ function garrow_list_array_builder_get_value_builder(builder)
     ccall((:garrow_list_array_builder_get_value_builder, libarrowglib), Ptr{GArrowArrayBuilder}, (Ptr{GArrowListArrayBuilder},), builder)
 end
 
-function garrow_struct_array_builder_get_type()
-    ccall((:garrow_struct_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_struct_array_builder_get_type()
+#     ccall((:garrow_struct_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_struct_array_builder_new(data_type, error)
     ccall((:garrow_struct_array_builder_new, libarrowglib), Ptr{GArrowStructArrayBuilder}, (Ptr{GArrowStructDataType}, Ptr{Ptr{GError}}), data_type, error)
@@ -578,9 +578,9 @@ function garrow_struct_array_builder_get_field_builders(builder)
     ccall((:garrow_struct_array_builder_get_field_builders, libarrowglib), Ptr{GList}, (Ptr{GArrowStructArrayBuilder},), builder)
 end
 
-function garrow_decimal128_array_builder_get_type()
-    ccall((:garrow_decimal128_array_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_decimal128_array_builder_get_type()
+#     ccall((:garrow_decimal128_array_builder_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowDecimal128ArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDecimal128ArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDecimal128ArrayBuilder}},), _ptr)

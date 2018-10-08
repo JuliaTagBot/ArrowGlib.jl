@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_field_get_type()
-    ccall((:garrow_field_get_type, libarrowglib), GType, ())
-end
+# function garrow_field_get_type()
+#     ccall((:garrow_field_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_field_new(name, data_type)
     ccall((:garrow_field_new, libarrowglib), Ptr{GArrowField}, (Ptr{gchar}, Ptr{GArrowDataType}), name, data_type)

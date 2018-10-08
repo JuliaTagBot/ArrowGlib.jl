@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_record_batch_builder_get_type()
-    ccall((:garrow_record_batch_builder_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_builder_get_type()
+#     ccall((:garrow_record_batch_builder_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowRecordBatchBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowRecordBatchBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowRecordBatchBuilder}},), _ptr)

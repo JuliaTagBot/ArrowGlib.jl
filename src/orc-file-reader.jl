@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_orc_file_reader_get_type()
-    ccall((:garrow_orc_file_reader_get_type, libarrowglib), GType, ())
-end
+# function garrow_orc_file_reader_get_type()
+#     ccall((:garrow_orc_file_reader_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowORCFileReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowORCFileReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowORCFileReader}},), _ptr)

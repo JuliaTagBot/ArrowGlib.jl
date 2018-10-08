@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_input_stream_get_type()
-    ccall((:garrow_input_stream_get_type, libarrowglib), GType, ())
-end
+# function garrow_input_stream_get_type()
+#     ccall((:garrow_input_stream_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInputStream}},), _ptr)
@@ -30,9 +30,9 @@ function GARROW_INPUT_STREAM_GET_CLASS(ptr::gpointer)
     ccall((:GARROW_INPUT_STREAM_GET_CLASS, libarrowglib), Ptr{GArrowInputStreamClass}, (gpointer,), ptr)
 end
 
-function garrow_seekable_input_stream_get_type()
-    ccall((:garrow_seekable_input_stream_get_type, libarrowglib), GType, ())
-end
+# function garrow_seekable_input_stream_get_type()
+#     ccall((:garrow_seekable_input_stream_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowSeekableInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowSeekableInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowSeekableInputStream}},), _ptr)
@@ -74,9 +74,9 @@ function garrow_seekable_input_stream_read_tensor(input_stream, position::gint64
     ccall((:garrow_seekable_input_stream_read_tensor, libarrowglib), Ptr{GArrowTensor}, (Ptr{GArrowSeekableInputStream}, gint64, Ptr{Ptr{GError}}), input_stream, position, error)
 end
 
-function garrow_buffer_input_stream_get_type()
-    ccall((:garrow_buffer_input_stream_get_type, libarrowglib), GType, ())
-end
+# function garrow_buffer_input_stream_get_type()
+#     ccall((:garrow_buffer_input_stream_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowBufferInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowBufferInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowBufferInputStream}},), _ptr)
@@ -110,17 +110,17 @@ function garrow_buffer_input_stream_get_buffer(input_stream)
     ccall((:garrow_buffer_input_stream_get_buffer, libarrowglib), Ptr{GArrowBuffer}, (Ptr{GArrowBufferInputStream},), input_stream)
 end
 
-function garrow_memory_mapped_input_stream_get_type()
-    ccall((:garrow_memory_mapped_input_stream_get_type, libarrowglib), GType, ())
-end
+# function garrow_memory_mapped_input_stream_get_type()
+#     ccall((:garrow_memory_mapped_input_stream_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_memory_mapped_input_stream_new(path, error)
     ccall((:garrow_memory_mapped_input_stream_new, libarrowglib), Ptr{GArrowMemoryMappedInputStream}, (Ptr{gchar}, Ptr{Ptr{GError}}), path, error)
 end
 
-function garrow_gio_input_stream_get_type()
-    ccall((:garrow_gio_input_stream_get_type, libarrowglib), GType, ())
-end
+# function garrow_gio_input_stream_get_type()
+#     ccall((:garrow_gio_input_stream_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_gio_input_stream_new(gio_input_stream)
     ccall((:garrow_gio_input_stream_new, libarrowglib), Ptr{GArrowGIOInputStream}, (Ptr{GInputStream},), gio_input_stream)

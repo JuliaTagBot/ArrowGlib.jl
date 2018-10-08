@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_record_batch_writer_get_type()
-    ccall((:garrow_record_batch_writer_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_writer_get_type()
+#     ccall((:garrow_record_batch_writer_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_writer_write_record_batch(writer, record_batch, error)
     ccall((:garrow_record_batch_writer_write_record_batch, libarrowglib), gboolean, (Ptr{GArrowRecordBatchWriter}, Ptr{GArrowRecordBatch}, Ptr{Ptr{GError}}), writer, record_batch, error)
@@ -18,25 +18,25 @@ function garrow_record_batch_writer_close(writer, error)
     ccall((:garrow_record_batch_writer_close, libarrowglib), gboolean, (Ptr{GArrowRecordBatchWriter}, Ptr{Ptr{GError}}), writer, error)
 end
 
-function garrow_record_batch_stream_writer_get_type()
-    ccall((:garrow_record_batch_stream_writer_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_stream_writer_get_type()
+#     ccall((:garrow_record_batch_stream_writer_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_stream_writer_new(sink, schema, error)
     ccall((:garrow_record_batch_stream_writer_new, libarrowglib), Ptr{GArrowRecordBatchStreamWriter}, (Ptr{GArrowOutputStream}, Ptr{GArrowSchema}, Ptr{Ptr{GError}}), sink, schema, error)
 end
 
-function garrow_record_batch_file_writer_get_type()
-    ccall((:garrow_record_batch_file_writer_get_type, libarrowglib), GType, ())
-end
+# function garrow_record_batch_file_writer_get_type()
+#     ccall((:garrow_record_batch_file_writer_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_record_batch_file_writer_new(sink, schema, error)
     ccall((:garrow_record_batch_file_writer_new, libarrowglib), Ptr{GArrowRecordBatchFileWriter}, (Ptr{GArrowOutputStream}, Ptr{GArrowSchema}, Ptr{Ptr{GError}}), sink, schema, error)
 end
 
-function garrow_feather_file_writer_get_type()
-    ccall((:garrow_feather_file_writer_get_type, libarrowglib), GType, ())
-end
+# function garrow_feather_file_writer_get_type()
+#     ccall((:garrow_feather_file_writer_get_type, libarrowglib), GType, ())
+# end
 
 function garrow_feather_file_writer_new(sink, error)
     ccall((:garrow_feather_file_writer_new, libarrowglib), Ptr{GArrowFeatherFileWriter}, (Ptr{GArrowOutputStream}, Ptr{Ptr{GError}}), sink, error)

@@ -2,9 +2,9 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
 
-function garrow_buffer_get_type()
-    ccall((:garrow_buffer_get_type, libarrowglib), GType, ())
-end
+# function garrow_buffer_get_type()
+#     ccall((:garrow_buffer_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowBuffer}},), _ptr)
@@ -78,9 +78,9 @@ function garrow_buffer_slice(buffer, offset::gint64, size::gint64)
     ccall((:garrow_buffer_slice, libarrowglib), Ptr{GArrowBuffer}, (Ptr{GArrowBuffer}, gint64, gint64), buffer, offset, size)
 end
 
-function garrow_mutable_buffer_get_type()
-    ccall((:garrow_mutable_buffer_get_type, libarrowglib), GType, ())
-end
+# function garrow_mutable_buffer_get_type()
+#     ccall((:garrow_mutable_buffer_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowMutableBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowMutableBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowMutableBuffer}},), _ptr)
@@ -118,9 +118,9 @@ function garrow_mutable_buffer_slice(buffer, offset::gint64, size::gint64)
     ccall((:garrow_mutable_buffer_slice, libarrowglib), Ptr{GArrowMutableBuffer}, (Ptr{GArrowMutableBuffer}, gint64, gint64), buffer, offset, size)
 end
 
-function garrow_resizable_buffer_get_type()
-    ccall((:garrow_resizable_buffer_get_type, libarrowglib), GType, ())
-end
+# function garrow_resizable_buffer_get_type()
+#     ccall((:garrow_resizable_buffer_get_type, libarrowglib), GType, ())
+# end
 
 function glib_autoptr_cleanup_GArrowResizableBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowResizableBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowResizableBuffer}},), _ptr)
