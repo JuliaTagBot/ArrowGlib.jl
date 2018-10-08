@@ -1,136 +1,5 @@
 # Automatically generated using Clang.jl wrap_c, version 0.0.0
 
-#using Compat
-
-# Skipping MacroDefinition: GARROW_TYPE_ARRAY_BUILDER ( garrow_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_BOOLEAN_ARRAY_BUILDER ( garrow_boolean_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY_BUILDER , GArrowBooleanArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BOOLEAN_ARRAY_BUILDER , GArrowBooleanArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_BOOLEAN_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_BOOLEAN_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BOOLEAN_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY_BUILDER , GArrowBooleanArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT_ARRAY_BUILDER ( garrow_int_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_INT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_INT_ARRAY_BUILDER , GArrowIntArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_INT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_INT_ARRAY_BUILDER , GArrowIntArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_INT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_INT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_INT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_INT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_INT_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_INT_ARRAY_BUILDER , GArrowIntArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT_ARRAY_BUILDER ( garrow_uint_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT8_ARRAY_BUILDER ( garrow_int8_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_INT8_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_INT8_ARRAY_BUILDER , GArrowInt8ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_INT8_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_INT8_ARRAY_BUILDER , GArrowInt8ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_INT8_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_INT8_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_INT8_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_INT8_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_INT8_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_INT8_ARRAY_BUILDER , GArrowInt8ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT8_ARRAY_BUILDER ( garrow_uint8_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_UINT8_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_UINT8_ARRAY_BUILDER , GArrowUInt8ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_UINT8_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_UINT8_ARRAY_BUILDER , GArrowUInt8ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_UINT8_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_UINT8_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_UINT8_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_UINT8_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_UINT8_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_UINT8_ARRAY_BUILDER , GArrowUInt8ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT16_ARRAY_BUILDER ( garrow_int16_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_INT16_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_INT16_ARRAY_BUILDER , GArrowInt16ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_INT16_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_INT16_ARRAY_BUILDER , GArrowInt16ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_INT16_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_INT16_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_INT16_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_INT16_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_INT16_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_INT16_ARRAY_BUILDER , GArrowInt16ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT16_ARRAY_BUILDER ( garrow_uint16_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_UINT16_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_UINT16_ARRAY_BUILDER , GArrowUInt16ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_UINT16_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_UINT16_ARRAY_BUILDER , GArrowUInt16ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_UINT16_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_UINT16_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_UINT16_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_UINT16_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_UINT16_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_UINT16_ARRAY_BUILDER , GArrowUInt16ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT32_ARRAY_BUILDER ( garrow_int32_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_INT32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_INT32_ARRAY_BUILDER , GArrowInt32ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_INT32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_INT32_ARRAY_BUILDER , GArrowInt32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_INT32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_INT32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_INT32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_INT32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_INT32_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_INT32_ARRAY_BUILDER , GArrowInt32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT32_ARRAY_BUILDER ( garrow_uint32_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_UINT32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_UINT32_ARRAY_BUILDER , GArrowUInt32ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_UINT32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_UINT32_ARRAY_BUILDER , GArrowUInt32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_UINT32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_UINT32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_UINT32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_UINT32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_UINT32_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_UINT32_ARRAY_BUILDER , GArrowUInt32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT64_ARRAY_BUILDER ( garrow_int64_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_INT64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_INT64_ARRAY_BUILDER , GArrowInt64ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_INT64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_INT64_ARRAY_BUILDER , GArrowInt64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_INT64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_INT64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_INT64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_INT64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_INT64_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_INT64_ARRAY_BUILDER , GArrowInt64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT64_ARRAY_BUILDER ( garrow_uint64_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_UINT64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_UINT64_ARRAY_BUILDER , GArrowUInt64ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_UINT64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_UINT64_ARRAY_BUILDER , GArrowUInt64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_UINT64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_UINT64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_UINT64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_UINT64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_UINT64_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_UINT64_ARRAY_BUILDER , GArrowUInt64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_FLOAT_ARRAY_BUILDER ( garrow_float_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FLOAT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FLOAT_ARRAY_BUILDER , GArrowFloatArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_FLOAT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_FLOAT_ARRAY_BUILDER , GArrowFloatArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_FLOAT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FLOAT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_FLOAT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_FLOAT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_FLOAT_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_FLOAT_ARRAY_BUILDER , GArrowFloatArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DOUBLE_ARRAY_BUILDER ( garrow_double_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_DOUBLE_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_DOUBLE_ARRAY_BUILDER , GArrowDoubleArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_DOUBLE_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_DOUBLE_ARRAY_BUILDER , GArrowDoubleArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_DOUBLE_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_DOUBLE_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_DOUBLE_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_DOUBLE_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_DOUBLE_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_DOUBLE_ARRAY_BUILDER , GArrowDoubleArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_BINARY_ARRAY_BUILDER ( garrow_binary_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BINARY_ARRAY_BUILDER , GArrowBinaryArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BINARY_ARRAY_BUILDER , GArrowBinaryArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BINARY_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BINARY_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BINARY_ARRAY_BUILDER , GArrowBinaryArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRING_ARRAY_BUILDER ( garrow_string_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRING_ARRAY_BUILDER , GArrowStringArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRING_ARRAY_BUILDER , GArrowStringArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRING_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRING_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRING_ARRAY_BUILDER , GArrowStringArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE32_ARRAY_BUILDER ( garrow_date32_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_DATE32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_DATE32_ARRAY_BUILDER , GArrowDate32ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_DATE32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_DATE32_ARRAY_BUILDER , GArrowDate32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_DATE32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_DATE32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_DATE32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_DATE32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_DATE32_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_DATE32_ARRAY_BUILDER , GArrowDate32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE64_ARRAY_BUILDER ( garrow_date64_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_DATE64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_DATE64_ARRAY_BUILDER , GArrowDate64ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_DATE64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_DATE64_ARRAY_BUILDER , GArrowDate64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_DATE64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_DATE64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_DATE64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_DATE64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_DATE64_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_DATE64_ARRAY_BUILDER , GArrowDate64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER ( garrow_timestamp_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER , GArrowTimestampArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER , GArrowTimestampArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIMESTAMP_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_TIMESTAMP_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIMESTAMP_ARRAY_BUILDER , GArrowTimestampArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME32_ARRAY_BUILDER ( garrow_time32_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIME32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIME32_ARRAY_BUILDER , GArrowTime32ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_TIME32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIME32_ARRAY_BUILDER , GArrowTime32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIME32_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIME32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_TIME32_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIME32_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_TIME32_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIME32_ARRAY_BUILDER , GArrowTime32ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME64_ARRAY_BUILDER ( garrow_time64_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIME64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIME64_ARRAY_BUILDER , GArrowTime64ArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_TIME64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIME64_ARRAY_BUILDER , GArrowTime64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIME64_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIME64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_TIME64_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIME64_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_TIME64_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIME64_ARRAY_BUILDER , GArrowTime64ArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_LIST_ARRAY_BUILDER ( garrow_list_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_LIST_ARRAY_BUILDER , GArrowListArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_LIST_ARRAY_BUILDER , GArrowListArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_LIST_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_LIST_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_LIST_ARRAY_BUILDER , GArrowListArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRUCT_ARRAY_BUILDER ( garrow_struct_array_builder_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY_BUILDER , GArrowStructArrayBuilder ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRUCT_ARRAY_BUILDER , GArrowStructArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_ARRAY_BUILDER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_ARRAY_BUILDER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRUCT_ARRAY_BUILDER ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY_BUILDER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY_BUILDER , GArrowStructArrayBuilderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DECIMAL128_ARRAY_BUILDER ( garrow_decimal128_array_builder_get_type ( ) )
 
 mutable struct _GArrowArrayBuilder
     parent_instance::GObject
@@ -432,13 +301,6 @@ const GARROW_METADATA_VERSION_V3 = (UInt32)(2)
 
 const GArrowMetadataVersion = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_TENSOR ( garrow_tensor_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TENSOR ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TENSOR , GArrowTensor ) )
-# Skipping MacroDefinition: GARROW_TENSOR_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TENSOR , GArrowTensorClass ) )
-# Skipping MacroDefinition: GARROW_IS_TENSOR ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TENSOR ) )
-# Skipping MacroDefinition: GARROW_IS_TENSOR_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TENSOR ) )
-# Skipping MacroDefinition: GARROW_TENSOR_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TENSOR , GArrowTensorClass ) )
-
 mutable struct _GArrowTensor
     parent_instance::GObject
 end
@@ -450,51 +312,6 @@ mutable struct _GArrowTensorClass
 end
 
 const GArrowTensorClass = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_ARRAY ( garrow_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_NULL_ARRAY ( garrow_null_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_NULL_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_NULL_ARRAY , GArrowNullArray ) )
-# Skipping MacroDefinition: GARROW_NULL_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_NULL_ARRAY , GArrowNullArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_NULL_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_NULL_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_NULL_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_NULL_ARRAY ) )
-# Skipping MacroDefinition: GARROW_NULL_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_NULL_ARRAY , GArrowNullArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_PRIMITIVE_ARRAY ( garrow_primitive_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_BOOLEAN_ARRAY ( garrow_boolean_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY , GArrowBooleanArray ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BOOLEAN_ARRAY , GArrowBooleanArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_BOOLEAN_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_BOOLEAN_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BOOLEAN_ARRAY ) )
-# Skipping MacroDefinition: GARROW_BOOLEAN_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BOOLEAN_ARRAY , GArrowBooleanArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_NUMERIC_ARRAY ( garrow_numeric_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT8_ARRAY ( garrow_int8_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT8_ARRAY ( garrow_uint8_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT16_ARRAY ( garrow_int16_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT16_ARRAY ( garrow_uint16_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT32_ARRAY ( garrow_int32_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT32_ARRAY ( garrow_uint32_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT64_ARRAY ( garrow_int64_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT64_ARRAY ( garrow_uint64_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FLOAT_ARRAY ( garrow_float_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_DOUBLE_ARRAY ( garrow_double_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_BINARY_ARRAY ( garrow_binary_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BINARY_ARRAY , GArrowBinaryArray ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BINARY_ARRAY , GArrowBinaryArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BINARY_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BINARY_ARRAY ) )
-# Skipping MacroDefinition: GARROW_BINARY_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BINARY_ARRAY , GArrowBinaryArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRING_ARRAY ( garrow_string_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRING_ARRAY , GArrowStringArray ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRING_ARRAY , GArrowStringArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRING_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRING_ARRAY ) )
-# Skipping MacroDefinition: GARROW_STRING_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRING_ARRAY , GArrowStringArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE32_ARRAY ( garrow_date32_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE64_ARRAY ( garrow_date64_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIMESTAMP_ARRAY ( garrow_timestamp_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME32_ARRAY ( garrow_time32_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME64_ARRAY ( garrow_time64_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FIXED_SIZE_BINARY_ARRAY ( garrow_fixed_size_binary_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_DECIMAL128_ARRAY ( garrow_decimal128_array_get_type ( ) )
 
 mutable struct _GArrowArray
     parent_instance::GObject
@@ -804,8 +621,6 @@ end
 const GArrowDecimal128ArrayClass = Cvoid
 const GArrowDecimal128Array_autoptr = Ptr{GArrowDecimal128Array}
 
-# Skipping MacroDefinition: GARROW_TYPE_DECIMAL128 ( garrow_decimal128_get_type ( ) )
-
 mutable struct _GArrowDecimal128
     parent_instance::GObject
 end
@@ -818,8 +633,6 @@ end
 
 const GArrowDecimal128Class = Cvoid
 const GArrowDecimal128_autoptr = Ptr{GArrowDecimal128}
-
-# Skipping MacroDefinition: GARROW_TYPE_ORC_FILE_READER ( garrow_orc_file_reader_get_type ( ) )
 
 mutable struct _GArrowORCFileReader
     parent_instance::GObject
@@ -875,78 +688,6 @@ const GARROW_TIME_UNIT_NANO = (UInt32)(3)
 # end enum ANONYMOUS_3
 
 const GArrowTimeUnit = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_DATA_TYPE ( garrow_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FIXED_WIDTH_DATA_TYPE ( garrow_fixed_width_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_NULL_DATA_TYPE ( garrow_null_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_NULL_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_NULL_DATA_TYPE , GArrowNullDataType ) )
-# Skipping MacroDefinition: GARROW_NULL_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_NULL_DATA_TYPE , GArrowNullDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_NULL_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_NULL_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_NULL_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_NULL_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_NULL_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_NULL_DATA_TYPE , GArrowNullDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_BOOLEAN_DATA_TYPE ( garrow_boolean_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_NUMERIC_DATA_TYPE ( garrow_numeric_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INTEGER_DATA_TYPE ( garrow_integer_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT8_DATA_TYPE ( garrow_int8_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT8_DATA_TYPE ( garrow_uint8_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT16_DATA_TYPE ( garrow_int16_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT16_DATA_TYPE ( garrow_uint16_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT32_DATA_TYPE ( garrow_int32_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT32_DATA_TYPE ( garrow_uint32_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_INT64_DATA_TYPE ( garrow_int64_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_UINT64_DATA_TYPE ( garrow_uint64_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FLOATING_POINT_DATA_TYPE ( garrow_floating_point_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FLOAT_DATA_TYPE ( garrow_float_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_DOUBLE_DATA_TYPE ( garrow_double_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_BINARY_DATA_TYPE ( garrow_binary_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BINARY_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BINARY_DATA_TYPE , GArrowBinaryDataType ) )
-# Skipping MacroDefinition: GARROW_BINARY_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BINARY_DATA_TYPE , GArrowBinaryDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BINARY_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_BINARY_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BINARY_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_BINARY_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BINARY_DATA_TYPE , GArrowBinaryDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRING_DATA_TYPE ( garrow_string_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRING_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRING_DATA_TYPE , GArrowStringDataType ) )
-# Skipping MacroDefinition: GARROW_STRING_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRING_DATA_TYPE , GArrowStringDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRING_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_STRING_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRING_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_STRING_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRING_DATA_TYPE , GArrowStringDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE32_DATA_TYPE ( garrow_date32_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_DATE32_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_DATE32_DATA_TYPE , GArrowDate32DataType ) )
-# Skipping MacroDefinition: GARROW_DATE32_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_DATE32_DATA_TYPE , GArrowDate32DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_DATE32_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_DATE32_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_DATE32_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_DATE32_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_DATE32_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_DATE32_DATA_TYPE , GArrowDate32DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DATE64_DATA_TYPE ( garrow_date64_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_DATE64_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_DATE64_DATA_TYPE , GArrowDate64DataType ) )
-# Skipping MacroDefinition: GARROW_DATE64_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_DATE64_DATA_TYPE , GArrowDate64DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_DATE64_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_DATE64_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_DATE64_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_DATE64_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_DATE64_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_DATE64_DATA_TYPE , GArrowDate64DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIMESTAMP_DATA_TYPE ( garrow_timestamp_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIMESTAMP_DATA_TYPE , GArrowTimestampDataType ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIMESTAMP_DATA_TYPE , GArrowTimestampDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIMESTAMP_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIMESTAMP_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_TIMESTAMP_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIMESTAMP_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_TIMESTAMP_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIMESTAMP_DATA_TYPE , GArrowTimestampDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME_DATA_TYPE ( garrow_time_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIME_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIME_DATA_TYPE , GArrowTimeDataType ) )
-# Skipping MacroDefinition: GARROW_TIME_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIME_DATA_TYPE , GArrowTimeDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIME_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIME_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_TIME_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIME_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_TIME_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIME_DATA_TYPE , GArrowTimeDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME32_DATA_TYPE ( garrow_time32_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIME32_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIME32_DATA_TYPE , GArrowTime32DataType ) )
-# Skipping MacroDefinition: GARROW_TIME32_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIME32_DATA_TYPE , GArrowTime32DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIME32_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIME32_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_TIME32_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIME32_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_TIME32_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIME32_DATA_TYPE , GArrowTime32DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME64_DATA_TYPE ( garrow_time64_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TIME64_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_TIME64_DATA_TYPE , GArrowTime64DataType ) )
-# Skipping MacroDefinition: GARROW_TIME64_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_TIME64_DATA_TYPE , GArrowTime64DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_TIME64_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_TIME64_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_TIME64_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_TIME64_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_TIME64_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_TIME64_DATA_TYPE , GArrowTime64DataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DECIMAL_DATA_TYPE ( garrow_decimal_data_type_get_type ( ) )
 
 mutable struct _GArrowDataType
     parent_instance::GObject
@@ -1277,31 +1018,6 @@ end
 const GArrowDecimalDataTypeClass = Cvoid
 const GArrowDecimalDataType_autoptr = Ptr{GArrowDecimalDataType}
 
-# Skipping MacroDefinition: GARROW_TYPE_ERROR ( garrow_error_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FILE_MODE ( garrow_file_mode_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_METADATA_VERSION ( garrow_metadata_version_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TYPE ( garrow_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TIME_UNIT ( garrow_time_unit_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_OUTPUT_STREAM ( garrow_output_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_FILE_OUTPUT_STREAM ( garrow_file_output_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FILE_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FILE_OUTPUT_STREAM , GArrowFileOutputStream ) )
-# Skipping MacroDefinition: GARROW_FILE_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_FILE_OUTPUT_STREAM , GArrowFileOutputStreamClass ) )
-# Skipping MacroDefinition: GARROW_IS_FILE_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FILE_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_IS_FILE_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_FILE_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_FILE_OUTPUT_STREAM_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_FILE_OUTPUT_STREAM , GArrowFileOutputStreamClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_BUFFER_OUTPUT_STREAM ( garrow_buffer_output_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_BUFFER_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_BUFFER_OUTPUT_STREAM , GArrowBufferOutputStream ) )
-# Skipping MacroDefinition: GARROW_BUFFER_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_BUFFER_OUTPUT_STREAM , GArrowBufferOutputStreamClass ) )
-# Skipping MacroDefinition: GARROW_IS_BUFFER_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_BUFFER_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_IS_BUFFER_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_BUFFER_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_BUFFER_OUTPUT_STREAM_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_BUFFER_OUTPUT_STREAM , GArrowBufferOutputStreamClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_GIO_OUTPUT_STREAM ( garrow_gio_output_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_GIO_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_GIO_OUTPUT_STREAM , GArrowGIOOutputStream ) )
-# Skipping MacroDefinition: GARROW_GIO_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_GIO_OUTPUT_STREAM , GArrowGIOOutputStreamClass ) )
-# Skipping MacroDefinition: GARROW_IS_GIO_OUTPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_GIO_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_IS_GIO_OUTPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_GIO_OUTPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_GIO_OUTPUT_STREAM_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_GIO_OUTPUT_STREAM , GArrowGIOOutputStreamClass ) )
-
 mutable struct _GArrowOutputStream
     parent_instance::GObject
 end
@@ -1355,22 +1071,9 @@ const GARROW_VERSION_MINOR = 10
 const GARROW_VERSION_MICRO = 0
 const GARROW_VERSION_TAG = ""
 
-# Skipping MacroDefinition: GARROW_VERSION_CHECK ( major , minor , micro ) ( GARROW_MAJOR_VERSION > ( major ) || ( GARROW_MAJOR_VERSION == ( major ) && GARROW_MINOR_VERSION > ( minor ) ) || ( GARROW_MAJOR_VERSION == ( major ) && GARROW_MINOR_VERSION == ( minor ) && GARROW_MICRO_VERSION >= ( micro ) ) )
-
 const GARROW_DEPRECATED = G_DEPRECATED
 
-# Skipping MacroDefinition: GARROW_DEPRECATED_FOR ( function ) G_DEPRECATED_FOR ( function )
-# Skipping MacroDefinition: GARROW_UNAVAILABLE ( major , minor ) G_UNAVAILABLE ( major , minor )
-# Skipping MacroDefinition: GARROW_VERSION_0_10 G_ENCODE_VERSION ( 0 , 10 )
-# Skipping MacroDefinition: GARROW_VERSION_MIN_REQUIRED G_ENCODE_VERSION ( GARROW_VERSION_MAJOR , GARROW_VERSION_MINOR )
-# Skipping MacroDefinition: GARROW_VERSION_MAX_ALLOWED G_ENCODE_VERSION ( GARROW_VERSION_MAJOR , GARROW_VERSION_MINOR )
-
 const GARROW_DEPRECATED_IN_0_10 = GARROW_DEPRECATED
-
-# Skipping MacroDefinition: GARROW_DEPRECATED_IN_0_10_FOR ( function ) GARROW_DEPRECATED_FOR ( function )
-# Skipping MacroDefinition: GARROW_TYPE_BUFFER ( garrow_buffer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_MUTABLE_BUFFER ( garrow_mutable_buffer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_RESIZABLE_BUFFER ( garrow_resizable_buffer_get_type ( ) )
 
 mutable struct _GArrowBuffer
     parent_instance::GObject
@@ -1411,8 +1114,6 @@ end
 const GArrowResizableBufferClass = Cvoid
 const GArrowResizableBuffer_autoptr = Ptr{GArrowResizableBuffer}
 
-# Skipping MacroDefinition: GARROW_ERROR garrow_error_quark ( )
-
 # begin enum ANONYMOUS_4
 const ANONYMOUS_4 = UInt32
 const GARROW_ERROR_OUT_OF_MEMORY = (UInt32)(1)
@@ -1433,11 +1134,6 @@ const GARROW_ERROR_PLASMA_OBJECT_ALREADY_SEALED = (UInt32)(23)
 
 const GArrowError = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_READABLE ( garrow_readable_get_type ( ) )
-# Skipping MacroDefinition: GARROW_READABLE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_READABLE , GArrowReadable ) )
-# Skipping MacroDefinition: GARROW_IS_READABLE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_READABLE ) )
-# Skipping MacroDefinition: GARROW_READABLE_GET_IFACE ( obj ) ( G_TYPE_INSTANCE_GET_INTERFACE ( ( obj ) , GARROW_TYPE_READABLE , GArrowReadableInterface ) )
-
 mutable struct _GArrowReadable
 end
 
@@ -1448,11 +1144,6 @@ end
 
 const GArrowReadableInterface = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_WRITEABLE_FILE ( garrow_writeable_file_get_type ( ) )
-# Skipping MacroDefinition: GARROW_WRITEABLE_FILE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_WRITEABLE_FILE , GArrowWriteableFile ) )
-# Skipping MacroDefinition: GARROW_IS_WRITEABLE_FILE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_WRITEABLE_FILE ) )
-# Skipping MacroDefinition: GARROW_WRITEABLE_FILE_GET_IFACE ( obj ) ( G_TYPE_INSTANCE_GET_INTERFACE ( ( obj ) , GARROW_TYPE_WRITEABLE_FILE , GArrowWriteableFileInterface ) )
-
 mutable struct _GArrowWriteableFile
 end
 
@@ -1462,13 +1153,6 @@ mutable struct _GArrowWriteableFileInterface
 end
 
 const GArrowWriteableFileInterface = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_CHUNKED_ARRAY ( garrow_chunked_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_CHUNKED_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_CHUNKED_ARRAY , GArrowChunkedArray ) )
-# Skipping MacroDefinition: GARROW_CHUNKED_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_CHUNKED_ARRAY , GArrowChunkedArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_CHUNKED_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_CHUNKED_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_CHUNKED_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_CHUNKED_ARRAY ) )
-# Skipping MacroDefinition: GARROW_CHUNKED_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_CHUNKED_ARRAY , GArrowChunkedArrayClass ) )
 
 mutable struct _GArrowChunkedArray
     parent_instance::GObject
@@ -1482,13 +1166,6 @@ end
 
 const GArrowChunkedArrayClass = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_FIELD ( garrow_field_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FIELD ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FIELD , GArrowField ) )
-# Skipping MacroDefinition: GARROW_FIELD_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_FIELD , GArrowFieldClass ) )
-# Skipping MacroDefinition: GARROW_IS_FIELD ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FIELD ) )
-# Skipping MacroDefinition: GARROW_IS_FIELD_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_FIELD ) )
-# Skipping MacroDefinition: GARROW_FIELD_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_FIELD , GArrowFieldClass ) )
-
 mutable struct _GArrowField
     parent_instance::GObject
 end
@@ -1500,27 +1177,6 @@ mutable struct _GArrowFieldClass
 end
 
 const GArrowFieldClass = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_READER ( garrow_record_batch_reader_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_TABLE_BATCH_READER ( garrow_table_batch_reader_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_STREAM_READER ( garrow_record_batch_stream_reader_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_READER , GArrowRecordBatchStreamReader ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH_STREAM_READER , GArrowRecordBatchStreamReaderClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_STREAM_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_READER ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_STREAM_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH_STREAM_READER ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_READER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_READER , GArrowRecordBatchStreamReaderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_FILE_READER ( garrow_record_batch_file_reader_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_READER , GArrowRecordBatchFileReader ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH_FILE_READER , GArrowRecordBatchFileReaderClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_FILE_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_READER ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_FILE_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH_FILE_READER ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_READER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_READER , GArrowRecordBatchFileReaderClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_FEATHER_FILE_READER ( garrow_feather_file_reader_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FEATHER_FILE_READER , GArrowFeatherFileReader ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_FEATHER_FILE_READER , GArrowFeatherFileReaderClass ) )
-# Skipping MacroDefinition: GARROW_IS_FEATHER_FILE_READER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FEATHER_FILE_READER ) )
-# Skipping MacroDefinition: GARROW_IS_FEATHER_FILE_READER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_FEATHER_FILE_READER ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_READER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_FEATHER_FILE_READER , GArrowFeatherFileReaderClass ) )
 
 mutable struct _GArrowRecordBatchReader
     parent_instance::GObject
@@ -1584,11 +1240,6 @@ end
 
 const GArrowFeatherFileReaderClass = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_WRITEABLE ( garrow_writeable_get_type ( ) )
-# Skipping MacroDefinition: GARROW_WRITEABLE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_WRITEABLE , GArrowWriteable ) )
-# Skipping MacroDefinition: GARROW_IS_WRITEABLE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_WRITEABLE ) )
-# Skipping MacroDefinition: GARROW_WRITEABLE_GET_IFACE ( obj ) ( G_TYPE_INSTANCE_GET_INTERFACE ( ( obj ) , GARROW_TYPE_WRITEABLE , GArrowWriteableInterface ) )
-
 mutable struct _GArrowWriteable
 end
 
@@ -1598,13 +1249,6 @@ mutable struct _GArrowWriteableInterface
 end
 
 const GArrowWriteableInterface = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_COLUMN ( garrow_column_get_type ( ) )
-# Skipping MacroDefinition: GARROW_COLUMN ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_COLUMN , GArrowColumn ) )
-# Skipping MacroDefinition: GARROW_COLUMN_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_COLUMN , GArrowColumnClass ) )
-# Skipping MacroDefinition: GARROW_IS_COLUMN ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_COLUMN ) )
-# Skipping MacroDefinition: GARROW_IS_COLUMN_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_COLUMN ) )
-# Skipping MacroDefinition: GARROW_COLUMN_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_COLUMN , GArrowColumnClass ) )
 
 mutable struct _GArrowColumn
     parent_instance::GObject
@@ -1618,11 +1262,6 @@ end
 
 const GArrowColumnClass = Cvoid
 
-# Skipping MacroDefinition: GARROW_TYPE_FILE ( garrow_file_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FILE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FILE , GArrowFile ) )
-# Skipping MacroDefinition: GARROW_IS_FILE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FILE ) )
-# Skipping MacroDefinition: GARROW_FILE_GET_IFACE ( obj ) ( G_TYPE_INSTANCE_GET_INTERFACE ( ( obj ) , GARROW_TYPE_FILE , GArrowFileInterface ) )
-
 mutable struct _GArrowFile
 end
 
@@ -1632,13 +1271,6 @@ mutable struct _GArrowFileInterface
 end
 
 const GArrowFileInterface = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH ( garrow_record_batch_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH , GArrowRecordBatch ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH , GArrowRecordBatchClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH , GArrowRecordBatchClass ) )
 
 mutable struct _GArrowRecordBatch
     parent_instance::GObject
@@ -1651,31 +1283,6 @@ mutable struct _GArrowRecordBatchClass
 end
 
 const GArrowRecordBatchClass = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_WRITER ( garrow_record_batch_writer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH_WRITER , GArrowRecordBatchWriter ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH_WRITER , GArrowRecordBatchWriterClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH_WRITER ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH_WRITER ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_WRITER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH_WRITER , GArrowRecordBatchWriterClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_STREAM_WRITER ( garrow_record_batch_stream_writer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_WRITER , GArrowRecordBatchStreamWriter ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH_STREAM_WRITER , GArrowRecordBatchStreamWriterClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_STREAM_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_WRITER ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_STREAM_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH_STREAM_WRITER ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_STREAM_WRITER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH_STREAM_WRITER , GArrowRecordBatchStreamWriterClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_FILE_WRITER ( garrow_record_batch_file_writer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_WRITER , GArrowRecordBatchFileWriter ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_RECORD_BATCH_FILE_WRITER , GArrowRecordBatchFileWriterClass ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_FILE_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_WRITER ) )
-# Skipping MacroDefinition: GARROW_IS_RECORD_BATCH_FILE_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_RECORD_BATCH_FILE_WRITER ) )
-# Skipping MacroDefinition: GARROW_RECORD_BATCH_FILE_WRITER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_RECORD_BATCH_FILE_WRITER , GArrowRecordBatchFileWriterClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_FEATHER_FILE_WRITER ( garrow_feather_file_writer_get_type ( ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_FEATHER_FILE_WRITER , GArrowFeatherFileWriter ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_FEATHER_FILE_WRITER , GArrowFeatherFileWriterClass ) )
-# Skipping MacroDefinition: GARROW_IS_FEATHER_FILE_WRITER ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_FEATHER_FILE_WRITER ) )
-# Skipping MacroDefinition: GARROW_IS_FEATHER_FILE_WRITER_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_FEATHER_FILE_WRITER ) )
-# Skipping MacroDefinition: GARROW_FEATHER_FILE_WRITER_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_FEATHER_FILE_WRITER , GArrowFeatherFileWriterClass ) )
 
 mutable struct _GArrowRecordBatchWriter
     parent_instance::GObject
@@ -1724,20 +1331,6 @@ mutable struct _GArrowFeatherFileWriterClass
 end
 
 const GArrowFeatherFileWriterClass = Cvoid
-
-# Skipping MacroDefinition: GARROW_TYPE_LIST_ARRAY ( garrow_list_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_LIST_ARRAY , GArrowListArray ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_LIST_ARRAY , GArrowListArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_LIST_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_LIST_ARRAY ) )
-# Skipping MacroDefinition: GARROW_LIST_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_LIST_ARRAY , GArrowListArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRUCT_ARRAY ( garrow_struct_array_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY , GArrowStructArray ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRUCT_ARRAY , GArrowStructArrayClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_ARRAY ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_ARRAY_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRUCT_ARRAY ) )
-# Skipping MacroDefinition: GARROW_STRUCT_ARRAY_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRUCT_ARRAY , GArrowStructArrayClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DICTIONARY_ARRAY ( garrow_dictionary_array_get_type ( ) )
 
 mutable struct _GArrowListArray
     parent_instance::GArrowArray
@@ -1800,20 +1393,6 @@ end
 const GArrowSchemaClass = Cvoid
 const GArrowSchema_autoptr = Ptr{GArrowSchema}
 
-# Skipping MacroDefinition: GARROW_TYPE_LIST_DATA_TYPE ( garrow_list_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_LIST_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_LIST_DATA_TYPE , GArrowListDataType ) )
-# Skipping MacroDefinition: GARROW_LIST_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_LIST_DATA_TYPE , GArrowListDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_LIST_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_LIST_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_LIST_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_LIST_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_LIST_DATA_TYPE , GArrowListDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_STRUCT_DATA_TYPE ( garrow_struct_data_type_get_type ( ) )
-# Skipping MacroDefinition: GARROW_STRUCT_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_STRUCT_DATA_TYPE , GArrowStructDataType ) )
-# Skipping MacroDefinition: GARROW_STRUCT_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_STRUCT_DATA_TYPE , GArrowStructDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_DATA_TYPE ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_STRUCT_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_IS_STRUCT_DATA_TYPE_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_STRUCT_DATA_TYPE ) )
-# Skipping MacroDefinition: GARROW_STRUCT_DATA_TYPE_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_STRUCT_DATA_TYPE , GArrowStructDataTypeClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_DICTIONARY_DATA_TYPE ( garrow_dictionary_data_type_get_type ( ) )
-
 mutable struct _GArrowListDataType
     parent_instance::GArrowDataType
 end
@@ -1851,8 +1430,6 @@ end
 const GArrowDictionaryDataTypeClass = Cvoid
 const GArrowDictionaryDataType_autoptr = Ptr{GArrowDictionaryDataType}
 
-# Skipping MacroDefinition: GARROW_TYPE_RECORD_BATCH_BUILDER ( garrow_record_batch_builder_get_type ( ) )
-
 mutable struct _GArrowRecordBatchBuilder
     parent_instance::GObject
 end
@@ -1866,8 +1443,6 @@ end
 const GArrowRecordBatchBuilderClass = Cvoid
 const GArrowRecordBatchBuilder_autoptr = Ptr{GArrowRecordBatchBuilder}
 
-# Skipping MacroDefinition: GARROW_TYPE_CAST_OPTIONS ( garrow_cast_options_get_type ( ) )
-
 mutable struct _GArrowCastOptions
     parent_instance::GObject
 end
@@ -1880,22 +1455,6 @@ end
 
 const GArrowCastOptionsClass = Cvoid
 const GArrowCastOptions_autoptr = Ptr{GArrowCastOptions}
-
-# Skipping MacroDefinition: GARROW_TYPE_INPUT_STREAM ( garrow_input_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_SEEKABLE_INPUT_STREAM ( garrow_seekable_input_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_BUFFER_INPUT_STREAM ( garrow_buffer_input_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM ( garrow_memory_mapped_input_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_MEMORY_MAPPED_INPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM , GArrowMemoryMappedInputStream ) )
-# Skipping MacroDefinition: GARROW_MEMORY_MAPPED_INPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM , GArrowMemoryMappedInputStreamClass ) )
-# Skipping MacroDefinition: GARROW_IS_MEMORY_MAPPED_INPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_IS_MEMORY_MAPPED_INPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_MEMORY_MAPPED_INPUT_STREAM_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_MEMORY_MAPPED_INPUT_STREAM , GArrowMemoryMappedInputStreamClass ) )
-# Skipping MacroDefinition: GARROW_TYPE_GIO_INPUT_STREAM ( garrow_gio_input_stream_get_type ( ) )
-# Skipping MacroDefinition: GARROW_GIO_INPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_CAST ( ( obj ) , GARROW_TYPE_GIO_INPUT_STREAM , GArrowGIOInputStream ) )
-# Skipping MacroDefinition: GARROW_GIO_INPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_CAST ( ( klass ) , GARROW_TYPE_GIO_INPUT_STREAM , GArrowGIOInputStreamClass ) )
-# Skipping MacroDefinition: GARROW_IS_GIO_INPUT_STREAM ( obj ) ( G_TYPE_CHECK_INSTANCE_TYPE ( ( obj ) , GARROW_TYPE_GIO_INPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_IS_GIO_INPUT_STREAM_CLASS ( klass ) ( G_TYPE_CHECK_CLASS_TYPE ( ( klass ) , GARROW_TYPE_GIO_INPUT_STREAM ) )
-# Skipping MacroDefinition: GARROW_GIO_INPUT_STREAM_GET_CLASS ( obj ) ( G_TYPE_INSTANCE_GET_CLASS ( ( obj ) , GARROW_TYPE_GIO_INPUT_STREAM , GArrowGIOInputStreamClass ) )
 
 mutable struct _GArrowInputStream
     parent_instance::GObject
