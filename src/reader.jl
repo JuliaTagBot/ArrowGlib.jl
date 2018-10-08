@@ -14,14 +14,6 @@ function garrow_record_batch_reader_get_schema(reader)
     ccall((:garrow_record_batch_reader_get_schema, libarrowglib), Ptr{GArrowSchema}, (Ptr{GArrowRecordBatchReader},), reader)
 end
 
-function garrow_record_batch_reader_get_next_record_batch(reader, error)
-    ccall((:garrow_record_batch_reader_get_next_record_batch, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchReader}, Ptr{Ptr{GError}}), reader, error)
-end
-
-function garrow_record_batch_reader_read_next_record_batch(reader, error)
-    ccall((:garrow_record_batch_reader_read_next_record_batch, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchReader}, Ptr{Ptr{GError}}), reader, error)
-end
-
 function garrow_record_batch_reader_read_next(reader, error)
     ccall((:garrow_record_batch_reader_read_next, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchReader}, Ptr{Ptr{GError}}), reader, error)
 end
@@ -64,10 +56,6 @@ end
 
 function garrow_record_batch_file_reader_get_version(reader)
     ccall((:garrow_record_batch_file_reader_get_version, libarrowglib), GArrowMetadataVersion, (Ptr{GArrowRecordBatchFileReader},), reader)
-end
-
-function garrow_record_batch_file_reader_get_record_batch(reader, i::guint, error)
-    ccall((:garrow_record_batch_file_reader_get_record_batch, libarrowglib), Ptr{GArrowRecordBatch}, (Ptr{GArrowRecordBatchFileReader}, guint, Ptr{Ptr{GError}}), reader, i, error)
 end
 
 function garrow_record_batch_file_reader_read_record_batch(reader, i::guint, error)

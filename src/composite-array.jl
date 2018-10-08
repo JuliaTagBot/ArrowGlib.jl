@@ -30,10 +30,6 @@ function garrow_struct_array_get_field(array, i::gint)
     ccall((:garrow_struct_array_get_field, libarrowglib), Ptr{GArrowArray}, (Ptr{GArrowStructArray}, gint), array, i)
 end
 
-function garrow_struct_array_get_fields(array)
-    ccall((:garrow_struct_array_get_fields, libarrowglib), Ptr{GList}, (Ptr{GArrowStructArray},), array)
-end
-
 function garrow_struct_array_flatten(array, error)
     ccall((:garrow_struct_array_flatten, libarrowglib), Ptr{GList}, (Ptr{GArrowStructArray}, Ptr{Ptr{GError}}), array, error)
 end
