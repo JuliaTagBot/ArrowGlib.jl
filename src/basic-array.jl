@@ -118,6 +118,10 @@ function glib_autoptr_cleanup_GArrowNumericArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowNumericArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowNumericArray}},), _ptr)
 end
 
+# function garrow_int8_array_get_type()
+#     ccall((:garrow_int8_array_get_type, libarrowglib), GType, ())
+# end
+
 function glib_autoptr_cleanup_GArrowInt8Array(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInt8Array, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInt8Array}},), _ptr)
 end
