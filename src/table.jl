@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowTable(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTable, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTable}},), _ptr)
 end
 
-function GARROW_TABLE(ptr::gpointer)
-    ccall((:GARROW_TABLE, libarrowglib), Ptr{GArrowTable}, (gpointer,), ptr)
-end
-
-function GARROW_TABLE_CLASS(ptr::gpointer)
-    ccall((:GARROW_TABLE_CLASS, libarrowglib), Ptr{GArrowTableClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_TABLE(ptr::gpointer)
-    ccall((:GARROW_IS_TABLE, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_TABLE_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_TABLE_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_TABLE_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_TABLE_GET_CLASS, libarrowglib), Ptr{GArrowTableClass}, (gpointer,), ptr)
-end
-
 function garrow_table_new(schema, columns)
     ccall((:garrow_table_new, libarrowglib), Ptr{GArrowTable}, (Ptr{GArrowSchema}, Ptr{GList}), schema, columns)
 end

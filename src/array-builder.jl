@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowArrayBuilder}},), _ptr)
 end
 
-function GARROW_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_ARRAY_BUILDER, libarrowglib), Ptr{GArrowArrayBuilder}, (gpointer,), ptr)
-end
-
-function GARROW_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_ARRAY_BUILDER_CLASS, libarrowglib), Ptr{GArrowArrayBuilderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_IS_ARRAY_BUILDER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_ARRAY_BUILDER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_ARRAY_BUILDER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_ARRAY_BUILDER_GET_CLASS, libarrowglib), Ptr{GArrowArrayBuilderClass}, (gpointer,), ptr)
-end
-
 function garrow_array_builder_release_ownership(builder)
     ccall((:garrow_array_builder_release_ownership, libarrowglib), Cvoid, (Ptr{GArrowArrayBuilder},), builder)
 end
@@ -100,26 +80,6 @@ end
 
 function glib_autoptr_cleanup_GArrowUIntArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowUIntArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowUIntArrayBuilder}},), _ptr)
-end
-
-function GARROW_UINT_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_UINT_ARRAY_BUILDER, libarrowglib), Ptr{GArrowUIntArrayBuilder}, (gpointer,), ptr)
-end
-
-function GARROW_UINT_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_UINT_ARRAY_BUILDER_CLASS, libarrowglib), Ptr{GArrowUIntArrayBuilderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_UINT_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_IS_UINT_ARRAY_BUILDER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_UINT_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_UINT_ARRAY_BUILDER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_UINT_ARRAY_BUILDER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_UINT_ARRAY_BUILDER_GET_CLASS, libarrowglib), Ptr{GArrowUIntArrayBuilderClass}, (gpointer,), ptr)
 end
 
 function garrow_uint_array_builder_new()
@@ -584,26 +544,6 @@ end
 
 function glib_autoptr_cleanup_GArrowDecimal128ArrayBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDecimal128ArrayBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDecimal128ArrayBuilder}},), _ptr)
-end
-
-function GARROW_DECIMAL128_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128_ARRAY_BUILDER, libarrowglib), Ptr{GArrowDecimal128ArrayBuilder}, (gpointer,), ptr)
-end
-
-function GARROW_DECIMAL128_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128_ARRAY_BUILDER_CLASS, libarrowglib), Ptr{GArrowDecimal128ArrayBuilderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_DECIMAL128_ARRAY_BUILDER(ptr::gpointer)
-    ccall((:GARROW_IS_DECIMAL128_ARRAY_BUILDER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_DECIMAL128_ARRAY_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_DECIMAL128_ARRAY_BUILDER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_DECIMAL128_ARRAY_BUILDER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128_ARRAY_BUILDER_GET_CLASS, libarrowglib), Ptr{GArrowDecimal128ArrayBuilderClass}, (gpointer,), ptr)
 end
 
 function garrow_decimal128_array_builder_new(data_type)

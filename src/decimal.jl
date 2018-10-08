@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowDecimal128(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDecimal128, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDecimal128}},), _ptr)
 end
 
-function GARROW_DECIMAL128(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128, libarrowglib), Ptr{GArrowDecimal128}, (gpointer,), ptr)
-end
-
-function GARROW_DECIMAL128_CLASS(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128_CLASS, libarrowglib), Ptr{GArrowDecimal128Class}, (gpointer,), ptr)
-end
-
-function GARROW_IS_DECIMAL128(ptr::gpointer)
-    ccall((:GARROW_IS_DECIMAL128, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_DECIMAL128_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_DECIMAL128_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_DECIMAL128_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_DECIMAL128_GET_CLASS, libarrowglib), Ptr{GArrowDecimal128Class}, (gpointer,), ptr)
-end
-
 function garrow_decimal128_new_string(data)
     ccall((:garrow_decimal128_new_string, libarrowglib), Ptr{GArrowDecimal128}, (Ptr{gchar},), data)
 end

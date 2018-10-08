@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowOutputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowOutputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowOutputStream}},), _ptr)
 end
 
-function GARROW_OUTPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_OUTPUT_STREAM, libarrowglib), Ptr{GArrowOutputStream}, (gpointer,), ptr)
-end
-
-function GARROW_OUTPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_OUTPUT_STREAM_CLASS, libarrowglib), Ptr{GArrowOutputStreamClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_OUTPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_IS_OUTPUT_STREAM, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_OUTPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_OUTPUT_STREAM_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_OUTPUT_STREAM_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_OUTPUT_STREAM_GET_CLASS, libarrowglib), Ptr{GArrowOutputStreamClass}, (gpointer,), ptr)
-end
-
 function garrow_output_stream_write_tensor(stream, tensor, error)
     ccall((:garrow_output_stream_write_tensor, libarrowglib), gint64, (Ptr{GArrowOutputStream}, Ptr{GArrowTensor}, Ptr{Ptr{GError}}), stream, tensor, error)
 end

@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowRecordBatchReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowRecordBatchReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowRecordBatchReader}},), _ptr)
 end
 
-function GARROW_RECORD_BATCH_READER(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_READER, libarrowglib), Ptr{GArrowRecordBatchReader}, (gpointer,), ptr)
-end
-
-function GARROW_RECORD_BATCH_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_READER_CLASS, libarrowglib), Ptr{GArrowRecordBatchReaderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_RECORD_BATCH_READER(ptr::gpointer)
-    ccall((:GARROW_IS_RECORD_BATCH_READER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_RECORD_BATCH_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_RECORD_BATCH_READER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_RECORD_BATCH_READER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_READER_GET_CLASS, libarrowglib), Ptr{GArrowRecordBatchReaderClass}, (gpointer,), ptr)
-end
-
 function garrow_record_batch_reader_get_schema(reader)
     ccall((:garrow_record_batch_reader_get_schema, libarrowglib), Ptr{GArrowSchema}, (Ptr{GArrowRecordBatchReader},), reader)
 end
@@ -52,26 +32,6 @@ end
 
 function glib_autoptr_cleanup_GArrowTableBatchReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowTableBatchReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowTableBatchReader}},), _ptr)
-end
-
-function GARROW_TABLE_BATCH_READER(ptr::gpointer)
-    ccall((:GARROW_TABLE_BATCH_READER, libarrowglib), Ptr{GArrowTableBatchReader}, (gpointer,), ptr)
-end
-
-function GARROW_TABLE_BATCH_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_TABLE_BATCH_READER_CLASS, libarrowglib), Ptr{GArrowTableBatchReaderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_TABLE_BATCH_READER(ptr::gpointer)
-    ccall((:GARROW_IS_TABLE_BATCH_READER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_TABLE_BATCH_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_TABLE_BATCH_READER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_TABLE_BATCH_READER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_TABLE_BATCH_READER_GET_CLASS, libarrowglib), Ptr{GArrowTableBatchReaderClass}, (gpointer,), ptr)
 end
 
 function garrow_table_batch_reader_new(table)

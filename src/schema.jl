@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowSchema(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowSchema, libarrowglib), Cvoid, (Ptr{Ptr{GArrowSchema}},), _ptr)
 end
 
-function GARROW_SCHEMA(ptr::gpointer)
-    ccall((:GARROW_SCHEMA, libarrowglib), Ptr{GArrowSchema}, (gpointer,), ptr)
-end
-
-function GARROW_SCHEMA_CLASS(ptr::gpointer)
-    ccall((:GARROW_SCHEMA_CLASS, libarrowglib), Ptr{GArrowSchemaClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_SCHEMA(ptr::gpointer)
-    ccall((:GARROW_IS_SCHEMA, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_SCHEMA_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_SCHEMA_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_SCHEMA_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_SCHEMA_GET_CLASS, libarrowglib), Ptr{GArrowSchemaClass}, (gpointer,), ptr)
-end
-
 function garrow_schema_new(fields)
     ccall((:garrow_schema_new, libarrowglib), Ptr{GArrowSchema}, (Ptr{GList},), fields)
 end

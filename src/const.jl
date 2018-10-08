@@ -25,7 +25,7 @@ const gdouble = Float64
 const gchar = Int8
 const gint = Cint
 const guint = Cuint
-const GType = Csize_t #Is this right?
+#const GType = Csize_t #Is this right?
 
 #Going to need to clean this up, unlikely everyone has this library in same location
 const libarrowglib = "/usr/lib/x86_64-linux-gnu/libarrow-glib.so"

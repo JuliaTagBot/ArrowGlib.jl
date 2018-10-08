@@ -10,52 +10,12 @@ function glib_autoptr_cleanup_GArrowInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowInputStream}},), _ptr)
 end
 
-function GARROW_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_INPUT_STREAM, libarrowglib), Ptr{GArrowInputStream}, (gpointer,), ptr)
-end
-
-function GARROW_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_INPUT_STREAM_CLASS, libarrowglib), Ptr{GArrowInputStreamClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_IS_INPUT_STREAM, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_INPUT_STREAM_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_INPUT_STREAM_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_INPUT_STREAM_GET_CLASS, libarrowglib), Ptr{GArrowInputStreamClass}, (gpointer,), ptr)
-end
-
 # function garrow_seekable_input_stream_get_type()
 #     ccall((:garrow_seekable_input_stream_get_type, libarrowglib), GType, ())
 # end
 
 function glib_autoptr_cleanup_GArrowSeekableInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowSeekableInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowSeekableInputStream}},), _ptr)
-end
-
-function GARROW_SEEKABLE_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_SEEKABLE_INPUT_STREAM, libarrowglib), Ptr{GArrowSeekableInputStream}, (gpointer,), ptr)
-end
-
-function GARROW_SEEKABLE_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_SEEKABLE_INPUT_STREAM_CLASS, libarrowglib), Ptr{GArrowSeekableInputStreamClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_SEEKABLE_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_IS_SEEKABLE_INPUT_STREAM, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_SEEKABLE_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_SEEKABLE_INPUT_STREAM_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_SEEKABLE_INPUT_STREAM_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_SEEKABLE_INPUT_STREAM_GET_CLASS, libarrowglib), Ptr{GArrowSeekableInputStreamClass}, (gpointer,), ptr)
 end
 
 function garrow_seekable_input_stream_get_size(input_stream, error)
@@ -80,26 +40,6 @@ end
 
 function glib_autoptr_cleanup_GArrowBufferInputStream(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowBufferInputStream, libarrowglib), Cvoid, (Ptr{Ptr{GArrowBufferInputStream}},), _ptr)
-end
-
-function GARROW_BUFFER_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_BUFFER_INPUT_STREAM, libarrowglib), Ptr{GArrowBufferInputStream}, (gpointer,), ptr)
-end
-
-function GARROW_BUFFER_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_BUFFER_INPUT_STREAM_CLASS, libarrowglib), Ptr{GArrowBufferInputStreamClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_BUFFER_INPUT_STREAM(ptr::gpointer)
-    ccall((:GARROW_IS_BUFFER_INPUT_STREAM, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_BUFFER_INPUT_STREAM_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_BUFFER_INPUT_STREAM_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_BUFFER_INPUT_STREAM_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_BUFFER_INPUT_STREAM_GET_CLASS, libarrowglib), Ptr{GArrowBufferInputStreamClass}, (gpointer,), ptr)
 end
 
 function garrow_buffer_input_stream_new(buffer)
