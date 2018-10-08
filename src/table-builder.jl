@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowRecordBatchBuilder(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowRecordBatchBuilder, libarrowglib), Cvoid, (Ptr{Ptr{GArrowRecordBatchBuilder}},), _ptr)
 end
 
-function GARROW_RECORD_BATCH_BUILDER(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_BUILDER, libarrowglib), Ptr{GArrowRecordBatchBuilder}, (gpointer,), ptr)
-end
-
-function GARROW_RECORD_BATCH_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_BUILDER_CLASS, libarrowglib), Ptr{GArrowRecordBatchBuilderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_RECORD_BATCH_BUILDER(ptr::gpointer)
-    ccall((:GARROW_IS_RECORD_BATCH_BUILDER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_RECORD_BATCH_BUILDER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_RECORD_BATCH_BUILDER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_RECORD_BATCH_BUILDER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_RECORD_BATCH_BUILDER_GET_CLASS, libarrowglib), Ptr{GArrowRecordBatchBuilderClass}, (gpointer,), ptr)
-end
-
 function garrow_record_batch_builder_new(schema, error)
     ccall((:garrow_record_batch_builder_new, libarrowglib), Ptr{GArrowRecordBatchBuilder}, (Ptr{GArrowSchema}, Ptr{Ptr{GError}}), schema, error)
 end

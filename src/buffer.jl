@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowBuffer}},), _ptr)
 end
 
-function GARROW_BUFFER(ptr::gpointer)
-    ccall((:GARROW_BUFFER, libarrowglib), Ptr{GArrowBuffer}, (gpointer,), ptr)
-end
-
-function GARROW_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_BUFFER_CLASS, libarrowglib), Ptr{GArrowBufferClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_BUFFER(ptr::gpointer)
-    ccall((:GARROW_IS_BUFFER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_BUFFER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_BUFFER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_BUFFER_GET_CLASS, libarrowglib), Ptr{GArrowBufferClass}, (gpointer,), ptr)
-end
-
 function garrow_buffer_new(data, size::gint64)
     ccall((:garrow_buffer_new, libarrowglib), Ptr{GArrowBuffer}, (Ptr{guint8}, gint64), data, size)
 end
@@ -86,26 +66,6 @@ function glib_autoptr_cleanup_GArrowMutableBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowMutableBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowMutableBuffer}},), _ptr)
 end
 
-function GARROW_MUTABLE_BUFFER(ptr::gpointer)
-    ccall((:GARROW_MUTABLE_BUFFER, libarrowglib), Ptr{GArrowMutableBuffer}, (gpointer,), ptr)
-end
-
-function GARROW_MUTABLE_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_MUTABLE_BUFFER_CLASS, libarrowglib), Ptr{GArrowMutableBufferClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_MUTABLE_BUFFER(ptr::gpointer)
-    ccall((:GARROW_IS_MUTABLE_BUFFER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_MUTABLE_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_MUTABLE_BUFFER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_MUTABLE_BUFFER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_MUTABLE_BUFFER_GET_CLASS, libarrowglib), Ptr{GArrowMutableBufferClass}, (gpointer,), ptr)
-end
-
 function garrow_mutable_buffer_new(data, size::gint64)
     ccall((:garrow_mutable_buffer_new, libarrowglib), Ptr{GArrowMutableBuffer}, (Ptr{guint8}, gint64), data, size)
 end
@@ -124,26 +84,6 @@ end
 
 function glib_autoptr_cleanup_GArrowResizableBuffer(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowResizableBuffer, libarrowglib), Cvoid, (Ptr{Ptr{GArrowResizableBuffer}},), _ptr)
-end
-
-function GARROW_RESIZABLE_BUFFER(ptr::gpointer)
-    ccall((:GARROW_RESIZABLE_BUFFER, libarrowglib), Ptr{GArrowResizableBuffer}, (gpointer,), ptr)
-end
-
-function GARROW_RESIZABLE_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_RESIZABLE_BUFFER_CLASS, libarrowglib), Ptr{GArrowResizableBufferClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_RESIZABLE_BUFFER(ptr::gpointer)
-    ccall((:GARROW_IS_RESIZABLE_BUFFER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_RESIZABLE_BUFFER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_RESIZABLE_BUFFER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_RESIZABLE_BUFFER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_RESIZABLE_BUFFER_GET_CLASS, libarrowglib), Ptr{GArrowResizableBufferClass}, (gpointer,), ptr)
 end
 
 function garrow_resizable_buffer_new(initial_size::gint64, error)

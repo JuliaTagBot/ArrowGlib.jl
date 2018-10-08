@@ -46,26 +46,6 @@ function glib_autoptr_cleanup_GArrowDictionaryArray(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowDictionaryArray, libarrowglib), Cvoid, (Ptr{Ptr{GArrowDictionaryArray}},), _ptr)
 end
 
-function GARROW_DICTIONARY_ARRAY(ptr::gpointer)
-    ccall((:GARROW_DICTIONARY_ARRAY, libarrowglib), Ptr{GArrowDictionaryArray}, (gpointer,), ptr)
-end
-
-function GARROW_DICTIONARY_ARRAY_CLASS(ptr::gpointer)
-    ccall((:GARROW_DICTIONARY_ARRAY_CLASS, libarrowglib), Ptr{GArrowDictionaryArrayClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_DICTIONARY_ARRAY(ptr::gpointer)
-    ccall((:GARROW_IS_DICTIONARY_ARRAY, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_DICTIONARY_ARRAY_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_DICTIONARY_ARRAY_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_DICTIONARY_ARRAY_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_DICTIONARY_ARRAY_GET_CLASS, libarrowglib), Ptr{GArrowDictionaryArrayClass}, (gpointer,), ptr)
-end
-
 function garrow_dictionary_array_new(data_type, indices)
     ccall((:garrow_dictionary_array_new, libarrowglib), Ptr{GArrowDictionaryArray}, (Ptr{GArrowDataType}, Ptr{GArrowArray}), data_type, indices)
 end

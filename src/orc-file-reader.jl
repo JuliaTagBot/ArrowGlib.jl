@@ -10,26 +10,6 @@ function glib_autoptr_cleanup_GArrowORCFileReader(_ptr)
     ccall((:glib_autoptr_cleanup_GArrowORCFileReader, libarrowglib), Cvoid, (Ptr{Ptr{GArrowORCFileReader}},), _ptr)
 end
 
-function GARROW_ORC_FILE_READER(ptr::gpointer)
-    ccall((:GARROW_ORC_FILE_READER, libarrowglib), Ptr{GArrowORCFileReader}, (gpointer,), ptr)
-end
-
-function GARROW_ORC_FILE_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_ORC_FILE_READER_CLASS, libarrowglib), Ptr{GArrowORCFileReaderClass}, (gpointer,), ptr)
-end
-
-function GARROW_IS_ORC_FILE_READER(ptr::gpointer)
-    ccall((:GARROW_IS_ORC_FILE_READER, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_IS_ORC_FILE_READER_CLASS(ptr::gpointer)
-    ccall((:GARROW_IS_ORC_FILE_READER_CLASS, libarrowglib), gboolean, (gpointer,), ptr)
-end
-
-function GARROW_ORC_FILE_READER_GET_CLASS(ptr::gpointer)
-    ccall((:GARROW_ORC_FILE_READER_GET_CLASS, libarrowglib), Ptr{GArrowORCFileReaderClass}, (gpointer,), ptr)
-end
-
 function garrow_orc_file_reader_new(file, error)
     ccall((:garrow_orc_file_reader_new, libarrowglib), Ptr{GArrowORCFileReader}, (Ptr{GArrowSeekableInputStream}, Ptr{Ptr{GError}}), file, error)
 end
